@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: antiquewhite;
+}
+
+.navigation {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-links > li {
+  margin: 20px;
+}
+
+main {
+  width: 700px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+img {
+  width: 20rem;
+}
+
+#section-2 {
+  text-align: center;
+}
